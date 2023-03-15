@@ -10,7 +10,7 @@ function AddProduct() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle adding the product to a database or state here
-    console.log(`Product name: ${productName}, Categories: ${categories}, Expiry date: ${expiryDate}, Quantity: ${quantity}`);
+    console.log(`Product Name: ${productName}, Categories: ${categories}, Expiry Date: ${expiryDate}, Quantity: ${quantity}`);
     // Clear input fields
     setProductName('');
     setCategories('');
